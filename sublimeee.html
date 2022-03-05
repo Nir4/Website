@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Abhivyakt</title>
+    <link type="text/css"  rel="stylesheet"  href="my.css">
+    
+
+  </head>
+  <body>
+    
+    <figure>
+     <img src="logo.png"
+          alt="logo">
+    
+    </figure>
+       
+ <h1>Abhivyakt-The literary club of IIT Jammu</h1>
+<div class="navbar" id="navbar">
+  <a href="quiz.html">Quizzes</a>
+  <a href="#news">Editorials</a>
+  <a href="#news">Fanfiction</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Recommendations
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Books</a>
+      <a href="#">Movies</a>
+      <a href="#">Music</a>
+    </div>
+    </div>
+   <div class="dropdown2">
+    <button class="dropbtn2">The Oracle
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content2">
+      <a href="#">2022</a>
+      <a href="#">2021</a>
+    </div>
+  </div> 
+  <a href="#news">About us</a>
+</div>
+
+   
+   <hr>
+<div class="parallax" text="io drgijdijgdifjiodjhfgiorshgoihdfosho" >
+  <blockquote style="padding-top: 150px;font-size: xx-large;">"Persistence overshadows even talent as the most valuable resource shaping the quality of life"</blockquote>
+</div>
+
+<div style="height:1000px;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+   
+    <br>
+    
+    <input id="myInput" placeholder="enter">
+    <button type="button" onclick="myFunction()">sumbit</button>
+   <script>
+     function myFunction() {
+      a="ho bo"
+      var input = document.getElementById("myInput").innerHTML;
+       if(input!=30)
+       {
+        
+        document.write(a);
+       }
+
+     }
+      //do something with your input
+
+      window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+   </script>
+   
+             
+   
+
+    <footer>
+     <a href="https://www.instagram.com/abhivyakt.iitjmu/?hl=en">
+     <img src="insta.png" alt="Instagram" width="50px" /></a>
+    </footer>
+  </body>
+
+
+</html>
